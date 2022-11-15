@@ -22,3 +22,7 @@ We will be making a website that allows the user to have an auto generated weigh
 
 (https://adrianhernandez565031.invisionapp.com/freehand/Untitled-RYthlDBRd?dsid_h=91d0329cf29e13139fcc6f6408beed13e679339ec2aac0c51cb1ea7924c304ce&uid_h=3f78d1998240b3f3ee3ec6a681403004e4924e10269733eb6496b12ccaf02dc9)
 
+## Wireframe
+
+(https://files.slack.com/files-pri/T039KG69K-F04AUFNRY21/wireframe.png)
+
