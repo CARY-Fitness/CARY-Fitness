@@ -1,0 +1,51 @@
+main {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#imgOne {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+#imgTwo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+article {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 300px;
+  width: 500px;
+
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: maroon;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(248, 68, 68);
+}
+
+tr {
+  border: 1px;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px;
+  border-collapse: collapse;
+}
