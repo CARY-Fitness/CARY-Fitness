@@ -1,9 +1,8 @@
 'use strict';
 
-let clientInfo = [];
+// let clientInfo = [];
 
 let form = document.getElementById('formOne');
-let retrievedClient = localStorage.getItem('client');
 let table = document.getElementById('workoutTable');
 
 
@@ -12,8 +11,8 @@ function Client(weight, calories, cardio) {
   this.calories = calories;
   this.cardio = cardio;
 
-  clientInfo.push(this);
-  console.log(clientInfo);
+  // clientInfo.push(this);
+  // console.log(clientInfo);
 }
 
 
@@ -22,13 +21,13 @@ function handleSubmit(event) {
   let weight = event.target.weight.value;
   let calories = event.target.calories.value;
   let cardio = event.target.cardio.value;
-  new Client(weight, calories, cardio);
-  saveClients();
-  form.removeEventListener('submit', handleSubmit);
+  let clientOne = new Client(weight, calories, cardio);
+  saveClients(clientOne);
+  // form.removeEventListener('submit', handleSubmit);
 }
 
-function saveClients() {
-  let stringifiedClient = JSON.stringify(clientInfo);
+function saveClients(client) {
+  let stringifiedClient = JSON.stringify(client);
 
   localStorage.setItem('client', stringifiedClient);
 }
@@ -36,12 +35,11 @@ function saveClients() {
 form.addEventListener('submit', handleSubmit);
 
 function retrieveClients() {
+  let retrievedClient = localStorage.getItem('client');
   if (retrievedClient) {
     let parsedClient = JSON.parse(retrievedClient);
-    clientInfo = parsedClient;
+    return parsedClient;
 
-
-  }else {clientInfo = [];
 
   }
 }
