@@ -44,6 +44,7 @@ table {
   border:1px solid #B3ADAD;
   border-collapse:collapse;
   padding:5px;
+  margin-top: 200px;
 }
 table th {
   border:1px solid #B3ADAD;
@@ -57,4 +58,14 @@ table td {
   padding:5px;
   background: #FFFFFF;
   color: #313030;
+}
+
+div img {
+  max-width: 3500px;
+  max-height: 350px;
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
 }

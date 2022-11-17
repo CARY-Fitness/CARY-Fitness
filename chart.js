@@ -9,15 +9,31 @@ function retrieveClients() {
   console.log(parsedClient.cardio);
   }
 }
-function render () {
-  let tdOne = document.getElementById('testOneText');
+function renderOne () {
+  let tdOne = document.getElementById('textOne');
   tdOne.textContent = parsedClient.cardio;
-  console.log('here');
+  let tdOneTwo = document.getElementById('textOneTwo');
+  tdOneTwo.textContent = parsedClient.cardioMinutes;
+
 
 }
 retrieveClients();
-render();
+renderOne();
+
+function renderTwo () {
+  let tdTwo = document.getElementById('textTwo');
+  tdTwo.textContent = parsedClient.freeWeightReps;
+
+}
+retrieveClients();
+renderTwo();
 
 
-
-
+// this.weight = weight;
+//   this.calories = calories;
+//   this.cardio = cardio;
+//   this.cardioMinutes = '';
+//   this.freeWeight = freeWeight;
+//   this.freeWeightReps = '';
+//   this.calisthenics = calisthenics;
+//   this.calisthenicsReps = '';
