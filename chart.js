@@ -14,19 +14,32 @@ function renderOne () {
   tdOne.textContent = parsedClient.cardio;
   let tdOneTwo = document.getElementById('textOneTwo');
   tdOneTwo.textContent = parsedClient.cardioMinutes;
+  
+  let tdTwo = document.getElementById('textTwo');
+  tdTwo.textContent = parsedClient.freeWeight;
+  let tdTwoTwo = document.getElementById('textTwoTwo');
+  tdTwoTwo.textContent = parsedClient.freeWeightReps;
+  
+  let tdThree = document.getElementById('textThree');
+  tdThree.textContent = parsedClient.cardioTwo;
+  let tdThreeTwo = document.getElementById('textThreeTwo');
+  tdThreeTwo.textContent = parsedClient.cardioMinutesTwo;
+  
+  let tdFour = document.getElementById('textFour');
+  tdFour.textContent = parsedClient.freeWeightTwo;
+  let tdFourTwo = document.getElementById('textFourTwo');
+  tdFourTwo.textContent = parsedClient.freeWeightRepsTwo;
+  
+  let tdFive = document.getElementById('textFive');
+  tdFive.textContent = parsedClient.cardio;
+  let tdFiveTwo = document.getElementById('textFiveTwo');
+  tdFiveTwo.textContent = parsedClient.cardioMinutes;
 
 
 }
 retrieveClients();
 renderOne();
 
-function renderTwo () {
-  let tdTwo = document.getElementById('textTwo');
-  tdTwo.textContent = parsedClient.freeWeightReps;
-
-}
-retrieveClients();
-renderTwo();
 
 
 // this.weight = weight;
