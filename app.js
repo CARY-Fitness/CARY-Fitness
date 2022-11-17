@@ -80,6 +80,8 @@ function handleSubmit(event) {
 
 function saveClients(client) {
   let stringifiedClient = JSON.stringify(client);
+  console.log(stringifiedClient);
+  console.log(client);
   
   localStorage.setItem('client', stringifiedClient);
 }
