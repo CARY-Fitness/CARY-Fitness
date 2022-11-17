@@ -124,9 +124,9 @@ Client.prototype.generateCardioWorkout = function () {
     // form.removeEventListener('submit', handleSubmit);
   }
 
+
   function saveClients(client) {
     let stringifiedClient = JSON.stringify(client);
-
     localStorage.setItem('client', stringifiedClient);
   }
 
