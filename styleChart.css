@@ -69,3 +69,7 @@ div img {
 h1 {
   text-align: center;
 }
+
+body {
+  background-color: lightgrey;
+}
