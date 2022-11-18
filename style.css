@@ -59,3 +59,60 @@ label {
   margin-top: 15px;
 }
 
+#adrianimg {
+  border-radius: 50%;
+  height: 300px;
+}
+
+#mikeimg {
+  border-radius: 50%;
+  height: 300px;
+}
+
+#robertimg {
+  border-radius: 50%;
+  height: 300px;
+}
+
+#colterimg {
+  border-radius: 50%;
+  height: 300px;
+}
+
+.adrianprofile {
+  border: 1px solid black;
+}
+
+.mikeprofile {
+  border: 1px solid black;
+}
+
+.robertprofile {
+  border: 1px solid black;
+}
+
+.colterprofile {
+  border: 1px solid black;
+}
+
+.adrianprofile p {
+  width: 90ch;
+
+}
+
+.mikeprofile p {
+  width: 90ch;
+
+}
+
+.robertprofile p {
+  width: 90ch;
+
+}
+
+.colterprofile p {
+  width: 90ch;
+
+}
+
+
