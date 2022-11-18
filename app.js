@@ -1,6 +1,6 @@
 'use strict';
-// let userName = prompt('What is your name?');
-// alert(`Hey ${userName} welcome to Cary Fitness`);
+let userName = prompt('What is your name?');
+alert(`Hey ${userName} welcome to Cary Fitness`);
 
 
 
@@ -9,6 +9,8 @@ let junk = [];
 let form = document.getElementById('formOne');
 let table = document.getElementById('workoutTable');
 let clientWorkOut = retrieveClients();
+let pElem = document.getElementById('welcome');
+pElem.innerHTML = (`Welcome ${userName} .... please fill out this questionnare below to get your fitness plan started.`);
 
 
 function Client(weight, calories, cardio, cardioTwo, calisthenics, calisthenicsTwo, freeWeight, freeWeightTwo) {
