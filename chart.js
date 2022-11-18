@@ -34,6 +34,32 @@ function renderOne () {
   tdFive.textContent = parsedClient.cardio;
   let tdFiveTwo = document.getElementById('textFiveTwo');
   tdFiveTwo.textContent = parsedClient.cardioMinutes;
+  
+  let one = document.getElementById('one');
+  one.textContent = parsedClient.cardio;
+  let oneTwo = document.getElementById('oneTwo');
+  oneTwo.textContent = parsedClient.cardioMinutes;
+  
+  let two = document.getElementById('two');
+  two.textContent = parsedClient.calisthenics;
+  let twoTwo = document.getElementById('twoTwo');
+  twoTwo.textContent = parsedClient.calisthenicsReps;
+  
+  let three = document.getElementById('three');
+  three.textContent = parsedClient.cardioTwo;
+  let threeTwo = document.getElementById('threeTwo');
+  threeTwo.textContent = parsedClient.cardioMinutesTwo;
+  
+  let four = document.getElementById('four');
+  four.textContent = parsedClient.calisthenicsTwo;
+  let fourTwo = document.getElementById('fourTwo');
+  fourTwo.textContent = parsedClient.calisthenicsRepsTwo;
+  
+  let five = document.getElementById('five');
+  five.textContent = parsedClient.cardio;
+  let fiveTwo = document.getElementById('fiveTwo');
+  fiveTwo.textContent = parsedClient.cardioMinutes;
+
 
 
 }

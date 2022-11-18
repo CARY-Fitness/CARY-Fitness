@@ -32,7 +32,7 @@ function Client(weight, calories, cardio, cardioTwo, calisthenics, calisthenicsT
 
 Client.prototype.generateCardioWorkout = function () {
   console.log(this)
-  if (this.cardio === 'running') {
+  if (this.cardio === 'running' || 'rowing' || 'walking' || 'biking') {
     if (this.calories === '700-799') {
       this.cardioMinutes = '60 minutes';
     }
@@ -43,7 +43,7 @@ Client.prototype.generateCardioWorkout = function () {
       this.cardioMinutes = '85 minutes';
 
     }
-    if (this.cardioTwo === 'walking') {
+    if (this.cardioTwo === 'running' || 'rowing' || 'walking' || 'biking') {
       if (this.calories === '700-799') {
         this.cardioMinutesTwo = '100 minutes';
       }
@@ -58,7 +58,7 @@ Client.prototype.generateCardioWorkout = function () {
 
 
     }
-    if (this.calisthenics === 'push-ups') {
+    if (this.calisthenics === 'push-ups' || 'pull-ups' || 'chin-ups' || 'air-squats' || 'lunges' || 'jumping-jacks' || 'burpees') {
       if (this.calories === '600-699') {
         this.calisthenicsReps = '50 reps';
       }
@@ -69,7 +69,7 @@ Client.prototype.generateCardioWorkout = function () {
         this.calisthenicsReps = '90 reps'
       }
     }
-    if (this.calisthenicsTwo === 'pull-ups') {
+    if (this.calisthenicsTwo === 'push-ups' || 'pull-ups' || 'chin-ups' || 'air-squats' || 'lunges' || 'jumping-jacks' || 'burpees') {
       if (this.calories === '600-699') {
         this.calisthenicsReps = '50 reps';
       }
@@ -80,7 +80,7 @@ Client.prototype.generateCardioWorkout = function () {
         this.calisthenicsRepsTwo = '90 reps'
       }
     }
-    if (this.freeWeight === 'bench-press') {
+    if (this.freeWeight === 'bench-press' || 'squat' || 'dumbbell-curls' || 'shoulder-press' || 'deadlift' || 'dumbbell-row' || 'incline/decline-dumbbell-press') {
       if (this.calories === '600-699') {
         this.freeWeightReps = '50 reps';
       }
@@ -92,7 +92,7 @@ Client.prototype.generateCardioWorkout = function () {
 
       }
     }
-    if (this.freeWeightTwo === 'squat') {
+    if (this.freeWeightTwo === 'bench-press' || 'squat' || 'dumbbell-curls' || 'shoulder-press' || 'deadlift' || 'dumbbell-row' || 'incline/decline-dumbbell-press') {
       if (this.calories === '600-699') {
         this.freeWeightRepsTwo = '50 reps';
       }
