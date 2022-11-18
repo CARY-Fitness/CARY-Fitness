@@ -2,6 +2,17 @@
 display: block;
 margin-left: 300px;
 margin-right: 300px;
+border: 5px solid maroon;
+}
+
+#formOne label {
+  margin-left: 20px;
+}
+
+#formOne select {
+  margin-left: 20px;
+  height: 35px;
+  font-weight: 700;
 }
 
 h1 {
@@ -56,6 +67,16 @@ label {
 }
 
 #submitbtn {
-  margin-top: 15px;
+  margin-left: 410px;
+  color: maroon;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 20%;
+  
+}
+
+#submitbtn:hover {
+  color: white;
+  background-color: maroon;
 }
 
