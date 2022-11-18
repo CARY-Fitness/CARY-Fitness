@@ -2,6 +2,17 @@
 display: block;
 margin-left: 300px;
 margin-right: 300px;
+border: 5px solid maroon;
+}
+
+#formOne label {
+  margin-left: 20px;
+}
+
+#formOne select {
+  margin-left: 20px;
+  height: 35px;
+  font-weight: 700;
 }
 
 h1 {
@@ -56,6 +67,73 @@ label {
 }
 
 #submitbtn {
-  margin-top: 15px;
+  margin-left: 410px;
+  color: maroon;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 20%;
+  
 }
+
+#submitbtn:hover {
+  color: white;
+  background-color: maroon;
+}
+
+#adrianimg {
+  border-radius: 50%;
+  height: 300px;
+}
+
+#mikeimg {
+  border-radius: 50%;
+  height: 300px;
+}
+
+#robertimg {
+  border-radius: 50%;
+  height: 300px;
+}
+
+#colterimg {
+  border-radius: 50%;
+  height: 300px;
+}
+
+.adrianprofile {
+  border: 1px solid black;
+}
+
+.mikeprofile {
+  border: 1px solid black;
+}
+
+.robertprofile {
+  border: 1px solid black;
+}
+
+.colterprofile {
+  border: 1px solid black;
+}
+
+.adrianprofile p {
+  width: 90ch;
+
+}
+
+.mikeprofile p {
+  width: 90ch;
+
+}
+
+.robertprofile p {
+  width: 90ch;
+
+}
+
+.colterprofile p {
+  width: 90ch;
+
+}
+
 

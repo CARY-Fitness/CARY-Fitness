@@ -17,18 +17,18 @@
           <li><a href="chart.html">Table</a></li>
           <li><a href="about_us.html">About Us</a></li>
           <li><a class="active" href="contact_us.html">Contact Us</a></li>
-      <li style="float: right;">logo</li>
+      <li style="float: right;"><img style="height: 50px; ;" src="CARYFitnessLogo.png" alt=""></li>
         </ul>
       </nav>
   </header>
   <main id="pageonemain">
   <h1>CARY Fitness Questionnaire</h1>
   <span>
-    <p>Welcome .... please fill out this questionnare below to get your fitness plan started.</p>
+    <p id="welcome">Welcome .... please fill out this questionnare below to get your fitness plan started.</p>
   </span>
   <div>
     <form id="formOne">
-      <fieldset>
+      
         <legend></legend>
         
         <label for="weight">What is your current weight?</label>
@@ -59,7 +59,7 @@
         </select>
           
         
-          <label for="cardio">What are your preferred cardio exercises?</label>
+          <label for="cardio">What is your preferred cardio exercise?</label>
         <select name="cardio" id="cardio">
           <option value="walking">Walking</option>
           <option value="running">Running</option>
@@ -74,7 +74,7 @@
           <option value="biking">Biking</option>
         </select>
 
-        <label for="freeweight">What are your preferred free weight exercises?</label>
+        <label for="freeweight">What is your preferred free weight exercise?</label>
         <select name="freeweight" id="freeweight">
           <option value="bench-press">Bench Press</option>
           <option value="squat">Squat</option>
@@ -85,7 +85,7 @@
           <option value="incline/decline-dumbbell-press">"Incline/Decline Dumbbell Press"</option>
         </select>
         
-        <label for="freeweightTwo">What is your preferred free weight exercise?</label>
+        <label for="freeweightTwo">What is your 2nd favorite free weight exercise?</label>
         <select name="freeweightTwo" id="freeweightTwo">
           <option value="bench-press">Bench Press</option>
           <option value="squat">Squat</option>
@@ -96,7 +96,7 @@
           <option value="incline/decline-dumbbell-press">"Incline/Decline Dumbbell Press"</option>
         </select>
 
-        <label for="calisthenics">What are your preferred calisthenics exercises?</label>
+        <label for="calisthenics">What is your preferred calisthenics exercise?</label>
         <select name="calisthenics" id="calisthenics">
           <option value="push-ups">Push-ups</option>
           <option value="pull-ups">Pull-ups</option>
@@ -108,7 +108,7 @@
           <option value="burpees">Burpees</option>
         </select>
        
-        <label for="calisthenicsTwo">What are your preferred calisthenics exercises?</label>
+        <label for="calisthenicsTwo">What is your 2nd favorite calisthenics exercise?</label>
         <select name="calisthenicsTwo" id="calisthenicsTwo">
           <option value="push-ups">Push-ups</option>
           <option value="pull-ups">Pull-ups</option>
@@ -122,14 +122,14 @@
 
        
 
-        <button type="submit">Submit</button>
-      </fieldset>
+        <button id="submitbtn" type="submit">Submit</button>
+      
 
 
     </form>
   </div>
 </main>
-  <footer>&copy CARY Fitness ltd.</footer>
+  <footer>&copy CARY Fitness LLC.</footer>
 <script src="app.js"></script>
 </body>
 
